@@ -1,0 +1,135 @@
+#navBrand.navbar-brand {
+	color: #d85549;
+	font-size: 1.5rem;
+	font-family: 'Shojumaru', cursive;
+}
+
+#navItems .nav-link {
+	color: white;
+	font-size: 1.1rem;
+}
+
+#navItems .nav-link:hover {
+	color: #ff9691;
+}
+body {
+	background-color: black; 
+}
+#jumbo {
+	background-image: url('images/apple.jpg');
+	  background-size: 100% 100%;
+}
+
+.main-banner {
+	margin: 0 auto; 
+	width: 100%; 
+	height: 100vh;  
+	background-color: black; 
+	overflow: hidden; 
+	position: relative; 
+}
+
+.imgbanbtn {
+	border-radius: 4px; 
+	position: absolute; 
+	top: 60%;  
+	z-index: 2000; 
+	opacity: 0.8; 
+	cursor: pointer; 
+	background-color: rgb(0, 0, 0,0.2); 
+	padding: 5px; 
+	transition: all ease-in 200ms; 
+}
+
+.imgbanbtn:hover {
+	opacity: 0.9; 
+}
+
+.imgbanbtn-prev {
+	left: 20px; 
+}
+
+
+.imgbanbtn-next {
+	right: 20px; 
+}
+
+.slide__image {
+	width: 100%; 
+	height: 100vh; 
+	top: 0px; 
+	transition: all ease-in-out 1s;
+	-webkit-transition: all ease-in-out 700ms; 
+	position: absolute;
+	background-position: center; 
+	background-repeat: no-repeat; 
+	background-size: cover; 
+	background-attachment: fixed;
+ }
+
+.fixed-top {
+	z-index: 2500; 
+}
+#img2 {
+	opacity: 0; 
+	display: none; 
+}
+#img3 {
+	opacity: 0; 
+	display: none; 
+}
+#img1 {
+	opacity: 1; 
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.8);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(255,255,255,1);
+}
+
+.hs-caption {
+	display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.caption {
+	display: table-cell;
+    text-align: center;
+	vertical-align: middle;
+	background-color: rgb(0, 0, 0, 0.15); 
+	font-family: 'Montserrat', sans-serif;
+}
+.sub-title {
+	color: white; 	
+}
+.sub-desc {
+	color: white; 
+}
+.sub-btn {
+	background: none; 
+	cursor: pointer; 
+	color: white; 
+	transition: all ease-in-out 240ms;
+	border: solid 1px white; 
+	padding-bottom: 5px;
+	padding-top: 5px; 
+	padding-right: 20px;
+	padding-left: 20px; 
+	border-radius: 3px; 
+	font-size: 0.9rem;
+}
+.btn-room {
+	margin-top: 40px; 
+}
+.sub-btn:hover {
+	background-color: white; 
+	color: black; 
+	text-decoration: none; 
+}
+
+.op {
+	opacity: 0; 
+}
